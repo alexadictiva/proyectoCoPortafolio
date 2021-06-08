@@ -1,3 +1,6 @@
+@import "./button.css";
+@import "./header.css";
+
 :root {
   --fontBase: "Poppins", sans-serif;
   --headLine1: bold 95px/154px var(--fontBase); /*shortcut font: ando tamaño /lineHeight fuente */
@@ -9,6 +12,10 @@
   --body2: normal 14px/23px var(--fontBase);
   --button: bold 14px/23px var(--fontBase);
   --caption: normal 12px/19px var(--fontBase);
+  --purple: #310a90;
+  --green: #42e2b8;
+  --white: #ffffff;
+  --black: #000000;
   --gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
       #747de9 0%,
@@ -21,9 +28,4 @@ body {
   background: var(--gradient);
   min-block-size: 100vh;
   font: var(--body1);
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
