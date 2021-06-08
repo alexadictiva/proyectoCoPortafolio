@@ -7,6 +7,8 @@
   text-transform: uppercase;
   font: var(--button);
   color: var(--white);
+  text-decoration: none;
+  text-align: center;
 }
 .button.is-secondary {
   background: unset;
