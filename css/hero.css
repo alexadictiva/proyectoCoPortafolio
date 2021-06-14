@@ -2,7 +2,10 @@
   text-align: center;
   margin-bottom: 16px;
 }
-
+.hero-image img {
+  width: 272px;
+  height: auto;
+}
 .hero-description h1 {
   margin: 0;
   font: var(--headLine3);
@@ -24,4 +27,25 @@
 
 .social {
   margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 32px;
+  }
+  .hero-description {
+    order: 1;
+    max-width: 450px;
+    padding-right: 16px;
+  }
+  .hero-image {
+    order: 2;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-image img {
+    width: 500px;
+  }
 }
