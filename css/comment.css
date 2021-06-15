@@ -1,0 +1,18 @@
+.coment {
+  padding: 40px 0;
+}
+.coment p {
+  text-align: center;
+}
+.coment p:nth-child(1) {
+  font: var(--headLine6);
+}
+.coment p:nth-child(2) {
+  font: var(--headLine5);
+}
+
+@media screen and (min-width: 768px) {
+  .coment {
+    padding: 200px 0;
+  }
+}

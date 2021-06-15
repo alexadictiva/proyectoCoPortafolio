@@ -4,6 +4,10 @@
 @import "./hero.css";
 @import "./wrapper.css";
 @import "./menu.css";
+@import "./comment.css";
+@import "./comments.css";
+@import "./project.css";
+@import "./footer.css";
 
 :root {
   --fontBase: "Poppins", sans-serif;
@@ -12,8 +16,10 @@
   --headLine3: bold 48px/78px var(--fontBase);
   --headLine4: bold 34px/55px var(--fontBase);
   --headLine5: bold 24px/39px var(--fontBase);
+  --headLine6: normal 24px/39px var(--fontBase);
   --body1: normal 16px/26px var(--fontBase);
   --body2: normal 14px/23px var(--fontBase);
+  --body3: bold 16px/26px var(--fontBase);
   --button: bold 14px/23px var(--fontBase);
   --caption: normal 12px/19px var(--fontBase);
   --purple: #310a90;

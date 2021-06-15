@@ -3,7 +3,7 @@
   margin-bottom: 16px;
 }
 .hero-image img {
-  width: 272px;
+  width: 100%;
   height: auto;
 }
 .hero-description h1 {
