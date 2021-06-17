@@ -10,7 +10,7 @@
   flex-direction: column;
   gap: 16px;
 }
-.project-description .title {
+.title {
   align-self: flex-start; /*sirve para que los elementos sigan manteniendo su alineacion de strech*/
   font: var(--headLine5);
   background-color: var(--purple);

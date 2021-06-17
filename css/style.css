@@ -5,8 +5,9 @@
 @import "./wrapper.css";
 @import "./menu.css";
 @import "./comment.css";
-@import "./comments.css";
+@import "./testimony.css";
 @import "./project.css";
+@import "./form.css";
 @import "./footer.css";
 
 :root {
@@ -39,4 +40,5 @@ body {
   min-block-size: 100vh;
   font: var(--body1);
   color: var(--purple);
+  scroll-behavior: smooth;
 }

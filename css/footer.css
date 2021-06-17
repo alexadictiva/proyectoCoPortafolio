@@ -2,6 +2,7 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 39px;
 }
 .footer-logo {
   display: none;
@@ -10,6 +11,9 @@ footer {
   color: var(--white);
   text-align: center;
   margin-top: -30px;
+}
+.copyright p {
+  margin: 0;
 }
 
 @media screen and (min-width: 1024px) {
@@ -25,8 +29,10 @@ footer {
   }
   .copyright {
     display: flex;
+    justify-content: flex-end;
     order: 2;
     width: 60%;
+    margin-top: 0;
   }
   footer .social {
     order: 3;
