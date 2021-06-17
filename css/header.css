@@ -1,11 +1,14 @@
 .header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  z-index: 20;
+}
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 81px;
   margin-bottom: 16px;
-  position: sticky;
-  top: 0;
-  backdrop-filter: blur(10px);
-  z-index: 20;
+  max-width: 1185px;
 }
